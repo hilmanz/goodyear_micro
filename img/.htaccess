@@ -1,0 +1,15 @@
+## Security
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{REQUEST_URI} !^/(wp-login.php|wp-admin/|wp-content/plugins/|wp-includes/).* [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.selamatsampaitujuan.com.*$ [NC]
+RewriteRule \.(ico|pdf|flv|jpg|jpeg|mp3|mpg|mp4|mov|wav|wmv|png|gif|swf|css|js)$ - [F,NS,L]
+
+AddType application/octet-stream .jpg .jpeg .png
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

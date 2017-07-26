@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /home/goodyear/.htpasswd
+Require valid-user
+
+

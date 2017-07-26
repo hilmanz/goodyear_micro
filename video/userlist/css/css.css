@@ -1,0 +1,139 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+	font-weight:300;
+	font-family:"Lato",Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background:#1d5b9b;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline:none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+	border:solid 1px #ddd;
+}
+td,th{
+	padding:10px;
+	border-bottom:solid 1px #ddd;
+	vertical-align:top;
+}
+th{
+	font-weight:600;
+	text-align:left;
+}
+.table td,.table th{
+	border-right:solid 1px #ddd;
+	vertical-align:top;
+}
+.table{
+	border-right:none;
+	border-bottom:none;
+}
+.wrapper{
+	margin:40px auto;
+	width:90%;
+	background:#fff;
+}
+#header{
+	background:#000;
+	color:#fff;
+}
+#header h1{
+	font-size:20px;
+	margin:0;
+	padding:20px;
+	font-weight:700;
+}
+.title{
+	margin:0;
+	padding:10px 20px;
+	background:#fff000;
+	border:solid 1px #ddd;
+	border-bottom:none;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#333;
+}
+.button{
+	font-size: 18px;
+	line-height:40px;
+	padding: 0 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	color: #f45700;
+	display:inline-block;
+	cursor:pointer;
+	border:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	border:1px #f45700 solid;
+	background:#fff;
+}
+
+.button:hover{
+	border:1px solid #ffc200;
+	color:#ffc200;
+}
+
+input[type="text"], input[type="password"], textarea {
+	background: #f7f7f7;
+	border: #d4d8d9 1px solid;
+	font-size: 12px;
+	padding:0 7px;
+	height:35px;
+	line-height:35px;
+	margin: 0 0 0 0;
+	color: #aaa;
+}
+input[type="text"]:active, input[type="text"]:hover, input[type="password"]:active, input[type="password"]:hover, textarea:active, textarea:hover {
+	color: #818181;
+}
+.messagebox{
+	margin:100px auto;
+	background:#f3f3f3;
+	border:solid 1px #ddd;
+	padding:30px;
+	border-radius:10px;
+	width:400px;
+	text-align:center;
+}
+.action{ width:80px;}
+.action a{
+	color:#999;
+	text-decoration:none;
+	display:inline-block;
+	margin:5px;
+}
+.action a:hover{
+	color:#333;
+}

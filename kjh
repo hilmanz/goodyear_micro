@@ -1,0 +1,13 @@
+#RewriteCond %{HTTP_HOST} ^selamatsampaitujuan.com$
+#RewriteRule (.*) http://www.selamatsampaitujuan.com$1 [R=301,L]
+
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /home/goodyear/.htpasswd
+Require valid-user
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?menu=/$1 [L]

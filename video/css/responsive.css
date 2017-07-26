@@ -1,0 +1,52 @@
+
+
+/* xs */
+@media (max-width: 767px) {
+ 
+	.navbar-collapse{
+		padding:20px 40px;
+	}
+	#header .navbar-nav > li > a{
+		padding:0;
+		line-height:40px;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, #header .navbar-nav li a:hover, #header .navbar-nav li.active a{
+		border:none;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+	.textCapt br{ display:none;}
+	.textCapt{
+		margin:0 0 40px 0;
+	}
+#header .navbar-brand img{
+	width:auto;
+	height:100px;
+}
+div.ppt{
+	position:relative;
+	bottom:auto;
+	top:auto;
+	left:0;
+	width:100% !important;
+}
+div.light_square .pp_close{   top: auto;
+  bottom: -56px;}
+div.ppt p, div.ppt h3{ margin:0 0 10px 0;}
+.btnUpload{
+	height: 40px;
+	background-size: 290px auto;
+}
+	div.pp_pic_holder{
+		width:100% !important;
+		left:0 !important;
+	}
+	.pp_content,.pp_details,.pp_hoverContainer,#pp_full_res img{
+		width:100% !important;
+		height:auto !important;
+	}
+	.pp_social{ margin:22px 0 0 0;}
+}
+
